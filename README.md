@@ -6,6 +6,8 @@ We are a direct mail marketing company integrated with Shopify. We send physical
 **Time Limit:** 3 hours  
 **Submission:** Fork this repository, complete both questions, and submit a pull request.
 
+> **Note:** All required data files are already included in the `data/` directory. You do not need to generate any data. The `generate_datasets.py` file is for internal use only.
+
 ## Repository Structure
 ```
 data-analyst-assessment/

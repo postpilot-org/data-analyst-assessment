@@ -1,6 +1,20 @@
 """
 Generate sample datasets for Data Analyst Assessment
 Creates realistic direct mail marketing datasets with holdout groups for incrementality testing
+
+⚠️ IMPORTANT - FOR ASSESSMENT CREATORS ONLY ⚠️
+================================================================
+This script is for INTERNAL USE by assessment creators to 
+generate or regenerate the sample datasets.
+
+CANDIDATES: DO NOT RUN THIS SCRIPT
+- All required data files are already included in the data/ directory
+- Running this script will overwrite the existing datasets
+- Simply follow the setup instructions in README.md to begin
+
+If you accidentally ran this script, restore the original data by:
+  git checkout data/
+================================================================
 """
 
 import pandas as pd
