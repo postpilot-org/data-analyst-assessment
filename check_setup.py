@@ -57,7 +57,6 @@ def main():
     files_to_check = [
         ('README.md', 'Main instructions'),
         ('requirements.txt', 'Python dependencies'),
-        ('generate_datasets.py', 'Data generation script'),
         ('SQL_SETUP.sql', 'SQL setup instructions')
     ]
     
@@ -102,7 +101,8 @@ def main():
     
     if not data_exists:
         print("\n⚠ Some data files are missing or incomplete.")
-        print("Run 'python generate_datasets.py' to create sample data.")
+        print("Please ensure you have cloned the repository correctly.")
+        print("All data files should be included in the data/ directory.")
         all_good = False
     
     # Check Python environment
@@ -150,10 +150,9 @@ def main():
         print("4. Submit your solutions via pull request")
     else:
         print("⚠ Setup incomplete. Please address the issues above.")
-        print("\nIf you need to generate sample data, run:")
-        print("  python generate_datasets.py")
         print("\nIf you need to install Python packages, run:")
         print("  pip install -r requirements.txt")
+        print("\nIf data files are missing, please re-clone the repository.")
     print("=" * 60)
 
 if __name__ == "__main__":

@@ -176,13 +176,15 @@ We will evaluate submissions based on:
 git clone [repository-url]
 cd data-analyst-assessment
 
-# Generate sample data
-python generate_datasets.py
-
-# For Python work
+# Set up Python environment
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
+
+# Verify setup
+python check_setup.py
+
+# Start Jupyter for Python work
 jupyter notebook
 ```
 
