@@ -1,5 +1,6 @@
 
 -- Question 1 Part A: Industry Benchmarks
+-- =====================================================
 
 -- Author: [Your Name]
 -- Date: [Date]
