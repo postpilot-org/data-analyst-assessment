@@ -201,8 +201,9 @@ jupyter notebook
 1. **Fork this repository** to your own GitHub account
 2. Complete both questions with all parts
 3. Ensure SQL files are properly formatted and commented
-4. Document your analytical approach, visualization plans, and strategic insights
-5. **Submit a link to your completed fork** (you can keep it public or make it private and add us as collaborators)
+4. **Document assumptions and clarifications** - If you have any clarification questions or are making assumptions, please comment them in your code
+5. Document your analytical approach, visualization plans, and strategic insights
+6. **Submit a link to your completed fork** (you can keep it public or make it private and add us as collaborators)
 
 ---
 
