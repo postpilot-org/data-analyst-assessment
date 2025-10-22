@@ -46,7 +46,7 @@ def main():
     
     # Check directory structure
     print("\n📁 Checking directory structure...")
-    directories = ['data', 'question_1', 'question_1/dashboard_output', 'question_2']
+    directories = ['data', 'question_1', 'question_2']
     for dir_name in directories:
         if not os.path.exists(dir_name):
             os.makedirs(dir_name)

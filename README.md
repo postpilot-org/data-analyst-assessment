@@ -25,8 +25,7 @@ data-analyst-assessment/
 ├── question_1/
 │   ├── part_a_benchmarks.sql          # Your benchmark calculations
 │   ├── part_b_dashboard.sql           # Your dashboard queries
-│   ├── dashboard_output/               # Your visualization files
-│   └── analysis_summary.md            # Your findings and recommendations
+│   └── analysis_summary.md            # Your findings, visualization plans, and recommendations
 ├── question_2/
 │   ├── data_quality_analysis.ipynb    # Your Python solution
 │   └── cleaned_site_visits.csv        # Your cleaned output
@@ -52,16 +51,23 @@ A major client is requesting a comprehensive performance review. They want to un
 2. Analysis of which coupon types perform best
 3. Segment analysis identifying which customer segments and campaign types we should invest more in
 
-Create the SQL queries to power this dashboard and produce visualizations showing:
+Create SQL queries that aggregate and prepare data for visualization. For each query, explain:
+- What visualization type you would use (e.g., bar chart, line graph, scatter plot)
+- Why that visualization is appropriate
+- What insights it would reveal
+
+Your queries should cover:
 - Current campaign ROAS/iROAS vs. industry benchmarks
 - Coupon performance by type
 - Segment profitability analysis with expansion recommendations
 - A/B test results if applicable
 
 **Deliverables:** 
-- SQL queries in `part_b_dashboard.sql`
-- At least 4 visualizations in `dashboard_output/` (use any tool: Python, Tableau, Excel, etc.)
-- Summary with strategic recommendations in `analysis_summary.md`
+- SQL queries in `part_b_dashboard.sql` (properly aggregated and ready for visualization)
+- Analysis summary in `analysis_summary.md` including:
+  - Your visualization approach for each query (chart type and rationale)
+  - Key findings from the data
+  - Strategic recommendations
 
 ---
 
@@ -163,11 +169,11 @@ Use Python to:
 
 We will evaluate submissions based on:
 
-1. **Technical Proficiency** - SQL and Python code quality, efficiency
-2. **Analytical Thinking** - Approach to benchmarking and segmentation
+1. **Technical Proficiency** - SQL and Python code quality, efficiency, proper data aggregation
+2. **Analytical Thinking** - Approach to benchmarking, segmentation, and problem-solving
 3. **Business Acumen** - Understanding of marketing metrics and strategic recommendations
-4. **Data Visualization** - Clear, insightful visual communication
-5. **Attention to Detail** - Thoroughness in data quality assessment
+4. **Visualization Planning** - Appropriate chart selection and clear rationale for visualization choices
+5. **Attention to Detail** - Thoroughness in data quality assessment and documentation
 
 ---
 
@@ -192,12 +198,11 @@ jupyter notebook
 
 ## Submission Guidelines
 
-1. Fork this repository
+1. **Fork this repository** to your own GitHub account
 2. Complete both questions with all parts
 3. Ensure SQL files are properly formatted and commented
-4. Include clear visualizations with appropriate labels
-5. Document your analytical approach and decisions
-6. Submit a pull request with your solutions
+4. Document your analytical approach, visualization plans, and strategic insights
+5. **Submit a link to your completed fork** (you can keep it public or make it private and add us as collaborators)
 
 ---
 
