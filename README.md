@@ -3,8 +3,8 @@
 ## Company Context
 We are a direct mail marketing company integrated with Shopify. We send physical mail campaigns with promotional codes and track their performance through our digital attribution system. We work with clients across various industries and need to understand performance benchmarks and optimization opportunities.
 
-**Time Limit:** 3 hours  
-**Submission:** Fork this repository, complete both questions, and submit a pull request.
+**Estimated Time Commitment:** 2-4 hours  
+**Submission:** Fork this repository to a private repository, complete both questions, and submit a pull request.
 
 > **Note:** All required data files are already included in the `data/` directory. You do not need to generate any data. The `generate_datasets.py` file is for internal use only.
 
@@ -198,12 +198,12 @@ jupyter notebook
 
 ## Submission Guidelines
 
-1. **Fork this repository** to your own GitHub account
+1. **Fork this repository** to your own **private** GitHub repo
 2. Complete both questions with all parts
 3. Ensure SQL files are properly formatted and commented
 4. **Document assumptions and clarifications** - If you have any clarification questions or are making assumptions, please comment them in your code
 5. Document your analytical approach, visualization plans, and strategic insights
-6. **Submit a link to your completed fork** (you can keep it public or make it private and add us as collaborators)
+6. Follow the instructions on the [HW Submission form](https://forms.gle/qEmQDoTWxHzyMRu5A) to ensure reviewers have been added to your **private** repo
 
 ---
 
